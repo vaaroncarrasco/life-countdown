@@ -1,0 +1,53 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #141414;
+  display: flex;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.countdown {
+  margin: .5rem 0;
+}
+
+.container {
+  color: #f8f9fa;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.memento-mori {
+  color: #3b3b3b;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #141414;
+  color: #3b3b3b;
+  border: 0px;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

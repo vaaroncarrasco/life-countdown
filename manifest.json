@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Life Countdown",
+  "version": "1.0",
+  "description": "Memento mori",
+  "author": "Aaron Carrasco",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icon16.png",
+    "128": "icon128.png"
+  }
+}
